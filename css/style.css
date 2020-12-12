@@ -24,7 +24,9 @@ img{max-width:100%;}
 html, body{
 	font-size: 100%;
     font-family: 'Lato', sans-serif;
-	background: url(../images/bann.jpg) no-repeat 0px 0px;
+	background: #0f2027;
+  background: -webkit-linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -99,7 +101,7 @@ input[type="submit"],a{
     float: left;
 }
 .wthree_personal_card_gridl img{
-    border:3px solid #20c1d2;
+    border:3px solid #64c7f1;
 	border-radius: 55px;
 }
 .agileits_main_grid_right{
@@ -139,7 +141,7 @@ input[type="submit"],a{
 }
 .agileits_plans h3{
 	font-size:1.2em;
-	color:#20c1d2;
+	color:#468ba8;
 	margin-bottom:1em;
 }
 .agileits_plans ul li{
@@ -210,7 +212,7 @@ input[type="submit"],a{
 	padding-left:1em;
 }
 .main_grid_right_grid ul li.agile_color{
-	border-left:4px solid #34eef7;
+	border-left:4px solid #64c7f1;
 }
 .main_grid_right_grid ul li.agile_color1{
 	border-left:4px solid #ed2a2a;
